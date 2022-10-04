@@ -1,19 +1,19 @@
-<html>
-<head>
-</head>
-<body>
-	<center><img src="Database_tables/abc.png" width="600" height="380" alt="Natural" align='center' border-color='#d3d3d3'/></center><br>
- <marquee behavior="scroll" direction="left" scrollamount='9' hspace="8" circle="yes">
-    <img src="Database_tables/tata.jpg" width="100" height="80" alt="Natural"  />&nbsp;&nbsp;
-	<img src="Database_tables/cap.png" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/nttdata.jpg" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/wipro.png" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/infy.png" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/virtusa.png" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/ctrls.jpg" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/epam.png" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/hexaware.jpg" width="100" height="80" alt="Natural" />
-	<img src="Database_tables/cognizant.png" width="100" height="80" alt="Natural" />
-  </marquee>
-</body>
-</html>
+<form action="action_page.php" method="post">
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button><br>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
